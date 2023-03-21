@@ -17,7 +17,7 @@ const Axios = () => {
       <div >
         {post.map((c: any,index:any) => (
           <div style={{backgroundColor:index % 2 == 0 ? "beige":"powderblue",borderBottom:'thick solid black',marginBottom:'1rem'}}>
-            <div>{c.userId}</div>
+            <div>{c.id}</div>
             <div>{c.title}</div>
             <div>{c.body}</div>
           </div>
